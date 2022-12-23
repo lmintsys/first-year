@@ -1,0 +1,37 @@
+/* The CSS file is organised in accordance with the order of the visual elements on the webpage and HTML */
+
+/* Universal selector. Defines the style of all elements on the wepbage */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Element selector. Defines the style of the items in the body element of the webpage */
+body {
+    background-color: #d9dcd6;
+    color: #ffffff;
+}
+
+/* Header and navigation menu of the page */
+
+
+img {
+    width: 100%;
+}
+
+/* Footer. Appears at the bottom of the webpage */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: #000000;
+    background-color: rgb(201, 219, 231);
+   /* background-image: url("../images/footer.png"); */
+}
+
+footer h4 {
+    font-size: 20px;
+    
+}
